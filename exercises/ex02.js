@@ -10,3 +10,28 @@ Write a series of conditional statements that:
 
 */
 
+
+const musicians = 77
+
+if (musicians <= 0) {
+    console.log("not a group")
+} else if (musicians > 4) {
+    console.log("this is a large group")
+} else {
+
+}
+
+switch (musicians) {
+    case 1: 
+        console.log("solo")
+        break
+    case 2: 
+        console.log("duet")
+        break
+    case 3: 
+        console.log("trio")
+        break
+    case 4: 
+        console.log("quartet")
+        break
+}
