@@ -11,3 +11,12 @@ row: 25 - seat: 97
 row: 25 - seat: 98
 row: 25 - seat: 99
 */
+
+const totalRows = 26
+const totalSeats = 100
+
+for (let row = 0; row < totalRows; row++) {
+    for (let seat = 0; seat < totalSeats; seat++) {
+        console.log(`row: ${row} - seat: ${seat}`)
+    }
+}
